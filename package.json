@@ -1,0 +1,16 @@
+{
+  "name": "agentes_ia_25_26",
+  "version": "1.0.0",
+  "description": "Semana 01 de Agentes IA",
+  "license": "MIT",
+  "author": "Gonzalo Mansera Ruiz",
+  "type": "\u001b[\u001b)\u001b[B\u001b[C\u001b[C\u001b[MIT\u001b[B",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "bash ./scripts/validate.sh"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  }
+}
