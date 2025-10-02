@@ -1,0 +1,91 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "titulo": "Código Limpio",
+      "authorId": 1,
+      "anio": 2008,
+      "editorial": "Prentice Hall",
+      "categoria": "Desarrollo de software",
+      "isbn": "9780132350884",
+      "precio": 35.99,
+      "stock": 12
+    },
+    {
+      "id": "2",
+      "titulo": "JavaScript Esencial",
+      "authorId": 2,
+      "anio": 2020,
+      "editorial": "Independently published",
+      "categoria": "JavaScript",
+      "isbn": "9781091210099",
+      "precio": 28.5,
+      "stock": 8
+    },
+    {
+      "id": "3",
+      "titulo": "Patrones de Diseño: Elementos para Software Reutilizable",
+      "authorId": 3,
+      "anio": 1994,
+      "editorial": "Addison-Wesley",
+      "categoria": "Arquitectura de software",
+      "isbn": "9780201633610",
+      "precio": 42.75,
+      "stock": 5
+    },
+    {
+      "id": "4",
+      "titulo": "El Programador Pragmático",
+      "authorId": 4,
+      "anio": 1999,
+      "editorial": "Addison-Wesley",
+      "categoria": "Buenas prácticas",
+      "isbn": "9780201616224",
+      "precio": 39.99,
+      "stock": 7
+    },
+    {
+      "id": "5",
+      "titulo": "Algoritmos: Una Introducción, Actualizado con PUT",
+      "authorId": 5,
+      "anio": 2009,
+      "editorial": "MIT Press",
+      "categoria": "Algoritmos",
+      "isbn": "9780262033848",
+      "precio": 49.9,
+      "stock": 10
+    }
+  ],
+  "authors": [
+    {
+      "id": "1",
+      "nombre": "Roberto C. Martín",
+      "nacionalidad": "Estadounidense",
+      "nacimiento": 1952
+    },
+    {
+      "id": "2",
+      "nombre": "Carlos Simpson",
+      "nacionalidad": "Estadounidense",
+      "nacimiento": 1975
+    },
+    {
+      "id": "3",
+      "nombre": "Erik Gamma, Ricardo Helm, Raúl Johnson, Juan Vlissides",
+      "nacionalidad": "Varios",
+      "nacimiento": null
+    },
+    {
+      "id": "4",
+      "nombre": "Andrés Hunt, David Tomás",
+      "nacionalidad": "Estadounidenses",
+      "nacimiento": null
+    },
+    {
+      "id": "5",
+      "nombre": "Tomás H. Cormen, Carlos E. Leiserson, Rolando L. Rivest, Claudio Stein",
+      "nacionalidad": "Estadounidenses",
+      "nacimiento": null
+    }
+  ]
+}
