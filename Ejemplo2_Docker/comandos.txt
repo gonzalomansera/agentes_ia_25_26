@@ -1,0 +1,12 @@
+El puerto 11434 no es opcional 
+
+docker run -d --name ollama -p 11434:11434 -v ollama_data:/root/.ollama ollama/ollama
+
+docker port Ollama 
+docker inspect ollama | grep -i "destination"
+curl http://localhost:11434/api/version 
+docker exec -it ollama bash 
+ollama list;
+llama3.2:1b
+ph13:mini
+gemma:2b
