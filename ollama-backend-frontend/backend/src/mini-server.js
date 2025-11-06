@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3002;
 const HOST = process.env.HOST || "0.0.0.0";
 const SERVER_URL = process.env.SERVER_URL || `http://${HOST}:${PORT}`;
 const AI_API_URL = process.env.AI_API_URL || "http://localhost:11434";
-const AI_MODEL = process.env.AI_MODEL || "llama2";
+const AI_MODEL = process.env.AI_MODEL || "llama.3.1b";
 
 // MIDDLEWARE
 app.use(cors());
